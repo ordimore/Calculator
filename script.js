@@ -107,6 +107,9 @@ const calculate = ()=>{
         case "/":
             result = parseFloat(prevNum) / parseFloat(currentNum);
             break;
+        case "%":
+            result = parseFloat(prevNum)/100;
+            break;
         default:
         return;
     }
